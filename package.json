@@ -1,0 +1,18 @@
+{
+  "name": "stickynotes",
+  "version": "1.0.0",
+  "description": "This is build using node html express css",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Mohini Dhakad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
